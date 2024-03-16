@@ -1,3 +1,8 @@
+nav {
+  /* border: 1px solid red;  */
+  width: 99%;
+  height: 15em;
+}
 
 body {
   
@@ -15,26 +20,31 @@ body {
 #logotipo{
   border-color: transparent;
   /* padding-left: 1%; */
+  float: left;
   margin: 1em 1em;
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
+
+ ul {
+  /* display: flex;
+  justify-content: space-between; */
   list-style-type: none;
-  align-items: center;
+ /* align-items: center;
   font-size: 30px;
   padding: 2em 1em 1em 1em;
   float: right;
 
-
+ */
 }
 
 
 a {
   color: white;
   text-decoration-line: none;
-  padding-left: 50px;
+  padding:1em;
+  font-size: 30px;
+  float: right;
+
 }
 
 img {
